@@ -1,0 +1,3 @@
+[submodule "rffmpeg"]
+	path = rffmpeg
+	url = https://github.com/joshuaboniface/rffmpeg.git
