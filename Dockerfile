@@ -1,6 +1,6 @@
 FROM linuxserver/jellyfin:latest
 
-COPY ./rffmpeg/rffmpeg /usr/local/bin/rffmpeg
+COPY rffmpeg/rffmpeg /usr/local/bin/rffmpeg
 RUN chmod +x /usr/local/bin/rffmpeg && \
     mv /usr/lib/jellyfin-ffmpeg/ffmpeg /usr/lib/jellyfin-ffmpeg/ffmpeg-orig && \
     mv /usr/lib/jellyfin-ffmpeg/ffprobe /usr/lib/jellyfin-ffmpeg/ffprobe-orig && \
